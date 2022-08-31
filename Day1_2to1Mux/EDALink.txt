@@ -1,0 +1,2 @@
+design2.sv - https://www.edaplayground.com/x/Taaz
+design1.sv - https://www.edaplayground.com/x/SAxV
