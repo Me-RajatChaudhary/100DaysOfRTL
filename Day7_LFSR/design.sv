@@ -1,4 +1,4 @@
-// Code your design here
+// Under progress
 module day7 (
   input wire clk,
   input wire reset,
