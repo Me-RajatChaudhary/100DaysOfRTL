@@ -11,10 +11,10 @@ module day7 (
     if(reset)
       lfsr_o <= 4'hE;
     else
-      lfsr_o <= nxt_lfsr;
+      lfsr_ff <= nxt_lfsr;
   end
-  
   assign nxt_lfsr = {lfsr_ff[2:0], lfsr_ff[1] ^ lfsr_ff[3]};
+  assign lfsr_o = nxt_lfsr;
     
 endmodule
   
