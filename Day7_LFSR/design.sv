@@ -1,4 +1,4 @@
-// Under progress
+// Under progress - dont care outputs
 module day7 (
   input wire clk,
   input wire reset,
